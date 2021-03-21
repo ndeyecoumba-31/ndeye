@@ -1,0 +1,264 @@
+.logo a {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 300;
+
+
+}
+.logo img{
+      
+      width: 120px;
+   border-radius: 80%;
+   height: 120px;
+   box-shadow: 5px 5px 5px gray;
+   border: solid black 3px;
+   box-shadow: purple;
+   margin-right: 1280px;
+   margin-bottom: -150px;
+}
+
+.logo a span{
+
+	color: black;
+}
+.navbar{
+	width: 100%;
+	background-color: purple;
+	position: fixed;
+	text-align: center;
+	animation-name: change;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	height: 25%;
+	margin-top: -50px;
+
+	
+}
+@keyframes change{
+	from{background-color: black}
+	to{background-color: blue}
+
+}.navbar .max-width{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	width: 1300px;
+	display: flex;	
+	margin: 0px auto;
+	color: red;
+
+}.menu{
+	padding-top: x;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+.menu li a{
+
+	color: crimson;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+
+
+}
+.menu li a:hover{
+	color: black; 
+}
+.souservice{
+	display: none;
+	position: absolute;
+    color: black;
+
+}
+.menu li:hover .souservice{
+	display: block;
+}
+.souservice li{
+	width: 90%;
+	text-align: center;
+	background-color: #60A1DB;
+	color: black;
+	border: 2px solid #bdc3c7;
+}
+i{
+	color: #60A1DB; 
+}
+*{
+
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+}
+.info21 p{
+	margin-left: 100px;
+	margin-top: -80px;
+
+}
+
+body{
+	background-color:blue;
+}
+
+.conteneur{
+    max-width: 576px;
+    }
+.d2{
+    width: 1300px;
+    height: 140px;
+    padding-top: 100%;
+    box-shadow: 0px 0px 10px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 15s ease-in-out infinite both;
+    background-repeat: no-repeat ;
+
+}
+.d1:hover, .d2:hover{
+    animation-play-state: inherit;
+}
+@keyframes fondu{
+    0%{background-image: url("menu-restaurant-numerique-au-format-horizontal_23-2148649585.jpg");}
+    33.33%{background-image: url("pexels-engin-akyurt-2725744.jpg");}
+    66.67%{background-image: url("PicsArt_02-27-08.28.23.jpg");}
+    100%{background-image: url("modele-menu-restauration-rapide-croquis_53562-9394.jpg");}
+
+}
+
+
+.sous{
+	display: none;
+	position: absolute;
+
+
+}
+
+
+.sous li{
+	width: 100%;
+	text-align: center;
+	border: 2px solid #bdc3c7;
+}
+.child-left{
+    width: 25%;
+    height:500px;
+    background-color: crimson;
+    margin: 10px 10px;
+
+}
+.child-right{
+
+	width: 25%;
+    height:500px;
+    background-color: purple;
+    margin: 10px 10px;
+
+}
+.child-center{
+
+	width: 50%;
+    height:480px;
+   
+    margin: auto 10px;
+    padding: 10px;
+    display: flex;
+}
+.home{
+	display: flex;
+	padding-top: 90px;
+
+
+}
+.info1{
+	height: 100%;
+	width: 50%;
+	background-color: black;
+	margin-right: 10px;
+}
+.info1 img{
+	height:500px; 
+	width:294px;
+	}
+.info2{
+	height: 100%;
+	width: 50%;
+
+}
+.info2 img{
+	height:145px; 
+	width:300px;
+	}
+.info21{
+	height: 30.4%;
+	background-color: pink;
+	margin: 10px auto;
+}
+.info21 img{
+	}
+.child-left img{
+	height:500px; 
+	width:294px;
+}
+.child-right img{
+	height:500px; 
+	width:294px;
+}
+.home1{
+	height: 300px;
+}
+.home1 span{
+	font-size: 40px;
+	color: black;
+	margin-top: -80px;
+	margin-left: 150px;
+}
+.home1 em{
+	font-size: 40px;
+	color: crimson;
+	
+	margin-left: 350px;
+}
+video{
+	width: 1200px;
+	margin-top: 110px;
+	border-radius: 80%;
+	border: solid purple 3px;
+	box-shadow: purple;
+	
+
+}
+.kine{
+	background: black;
+	color: white;
+	width:100%;
+	margin-top: 150px;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+
+}
+.kine span{
+	color:#60A1DB;
+	
+}
+.cadre{
+	display: flex;
+}
+.hone{
+	height: 700px;
+	background:url('pexels-jeswin-thomas-5229768.jpg')no-repeat fixed 50% 50%;
+	display: flex;
+	background-size:cover;
+}
+.hone .max-width{
+	color: black;
+	margin: auto 120px;
+
+
+
+
+

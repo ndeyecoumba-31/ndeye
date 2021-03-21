@@ -1,0 +1,168 @@
+*{
+
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+}
+.logo a {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 300;
+}
+.logo a span{
+
+	color: black;
+}
+body{
+	
+}
+
+.navbar{
+	width: 100%;
+	background-color: purple;
+	position: fixed;
+	text-align: center;
+	animation-name: change;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	
+
+	
+}
+@keyframes change{
+	from{background-color:#33637E}
+	to{background-color:#66C5FC}
+
+}
+body{
+    
+	}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	width: 1300px;
+	display: flex;	
+	margin: 0px auto;
+	color: red;
+}.menu{
+	padding-top: 10px;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+.menu li a{
+
+	color: black;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+
+
+}
+.menu li a:hover{
+	color: black; 
+}
+.souservice{
+	display: none;
+	position: absolute;
+    color: black;
+
+}
+.menu li:hover .souservice{
+	display: block;
+}
+.souservice li{
+	width: 90%;
+	text-align: center;
+	background-color: #60A1DB;
+	color: black;
+	border: 2px solid #bdc3c7;
+}
+.child-left{
+    width: 25%;
+    height:500px;
+   
+    margin: 10px 10px;
+
+}
+.child-left img{
+	}
+.info21{
+	height: 800px;
+	background-color: white;
+	margin: 10px auto;
+	width: 600px;
+}
+.info21 span{
+	font-size: 20px;
+	margin-left: 20px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 0px #66C5FC;
+	background-color:black;
+	color:white;
+	}
+.info21 img{
+	height: 300px;
+	margin-right: 100px;
+	margin-top: 10px;
+	margin-left: 20px;
+	}
+	.info21 em{
+		font-size: 30px;
+		margin-left: 100px;
+		color: #66C5FC;
+	}
+	.info21 p{
+		font-size: 20px;
+		margin-top: 150px;
+		box-shadow: 5px 5px 0px #66C5FC;
+	background-color:white;
+	color:#60A1DB; 
+	}
+
+.child-center{
+
+	width: 75%;
+    height:480px;
+    background-color: white;
+    margin: auto 10px;
+    padding: 10px;
+    display: flex;
+}
+.child-center img{
+}
+
+.info211 span{
+	font-size: 20px;
+	margin-left: 150px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 0px #66C5FC;
+	background-color:black;
+	color:white;
+	
+}
+
+.home{
+	display: flex;
+	padding-top: 90px;
+
+
+}
+footer{
+	background: black;
+	color: white;
+	width:100%;
+	margin-top: 1500px;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+
+}
+.kine span{
+	color:#60A1DB;
+}

@@ -1,0 +1,168 @@
+*{
+
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+}
+.logo a {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 300;
+}
+.logo a span{
+
+	color: black;
+}
+body{
+	
+}
+
+.navbar{
+	width: 100%;
+	background-color: purple;
+	position: fixed;
+	text-align: center;
+	animation-name: change;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	
+
+	
+}
+@keyframes change{
+	from{background-color: #E1926D}
+	to{background-color: #B2520B}
+
+}
+body{
+    
+	}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	width: 1300px;
+	display: flex;	
+	margin: 0px auto;
+	color: red;
+}.menu{
+	padding-top: 10px;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+.menu li a{
+
+	color: black;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+
+
+}
+.menu li a:hover{
+	color: black; 
+}
+.souservice{
+	display: none;
+	position: absolute;
+    color: black;
+
+}
+.menu li:hover .souservice{
+	display: block;
+}
+.souservice li{
+	width: 90%;
+	text-align: center;
+	background-color: #60A1DB;
+	color: black;
+	border: 2px solid #bdc3c7;
+}
+.pagee1{
+	height: 700px;
+	background:url('coffee-171653_1920.jpg')no-repeat fixed 50% 50%;
+	display: flex;
+	background-size:cover;
+}
+.child-left{
+    width: 55%;
+    height:300px;
+    
+    margin-top:80px;
+
+
+}
+.child-right{
+
+	width: 55%;
+    height:300px;
+
+    margin-left:80px;
+      margin-top:80px;
+
+}
+.child-left img{
+  width: 85%;
+    height:300px;
+    margin-left:20px;
+	border-radius: 20%;
+    
+
+}
+.child-right img{
+
+	 width: 85%;
+    height:300px;
+    margin-left:20px;
+	border-radius: 20%;
+    
+    
+
+}
+.cadre{
+	display: flex;
+}
+.pagee2 img{
+	height: 500px;
+	width: 100%;
+}
+video{
+	width: 900px;
+	margin-left: 200px;
+	margin-top: 60px;
+	border-radius: 80%;
+	border: solid  #B2520B 3px;
+	box-shadow: #B2520B;
+	}
+	.kine{
+	background: black;
+	color: white;
+	width:100%;
+	margin-top: 0px;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+
+}
+.kine span{
+	color:#60A1DB;
+}
+.child-left span{
+	font-size: 30px;
+}
+.child-right span{
+	font-size: 30px;
+}
+.child-left p{
+	font-size: 20px;
+	margin-left: 30px;
+}
+.child-right p{
+	font-size: 20px;
+	margin-left: 30px;
+}

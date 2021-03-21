@@ -1,0 +1,96 @@
+.menu li a{
+
+   color: #7E7433;
+   font-size: 20px;
+   font-weight: 200;
+   margin-left: 25px;
+   transition: color 2s;
+
+
+}
+.navbar a{
+   font-size: 20px;
+}
+*{
+
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   font-family: cursive;
+}
+.menu li a:hover{
+   color: black; 
+}
+.menu li {
+   display: flex;
+}
+body{
+   background-color:#0000F;
+}
+.menue{
+    background-color:#0000FF;
+
+}
+.menue h6{
+   font-size: 30px;
+}
+.menue h1{
+   color:white;
+   font-size: 50px;
+}
+.menue h2{
+   color:black;
+   font-size: 50px;
+}
+.menue a{
+   color:white;
+   font-size: 20px;
+}
+.menue p{
+   color:white;
+   font-size: 20px;
+}
+.menuee{
+    background-color:#DFF2FF;
+
+}
+.part{
+
+}
+.pp a{
+  font-size: 50px;
+}
+.menue em{
+   font-size: 30px;
+}
+.zome{
+   height: 700px;
+   background:url('PicsArt_03-20-08.57.26.jpg')no-repeat fixed 50% 50%;
+   display: flex;
+   background-size:cover;
+}
+.zome .max-width{
+   color: black;
+   margin: auto 120px;
+}
+.vome{
+   height: 700px;
+   background:url('data=OzNfQAo_FxsJnPF977Id4FjxruS35Jwrwgsd7aKNUlYvCj9pHfnG0SglETDJRYvEEHP_Mafjsjw6WBaG4NxjdFrGEHD9imYLJJ57UvhRZ8PL3crVVWwS2ZsguLrK6E9ht52Bvuc9aR7RihljvbfuxNUGTPpVVtlXxKLwhkbdiWlqmLCQRjotMEJoH71ogm1mXAH.png')no-repeat fixed 50% 50%;
+   display: flex;
+   background-size:cover;
+}
+.vome .max-width{
+   color: black;
+   margin: auto 120px;
+}
+.pp img{
+      
+      width: 120px;
+   border-radius: 80%;
+   height: 120px;
+   box-shadow: 5px 5px 5px gray;
+   border: solid black 3px;
+   box-shadow: purple;
+   margin-right: 1280px;
+   margin-bottom: -150px;
+}

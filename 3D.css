@@ -1,0 +1,269 @@
+*{
+
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+}
+.logo a {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 300;
+
+
+}
+.logo a span{
+
+	color: black;
+}
+.navbar{
+	width: 100%;
+	background-color: purple;
+	position: fixed;
+	text-align: center;
+	animation-name: change;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+
+	
+}
+@keyframes change{
+	from{background-color:green}
+	to{background-color:#7f3432}
+
+}
+body{
+background-color: ;
+}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	width: 1300px;
+	display: flex;	
+	margin: 0px auto;
+	color: red;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+.menu li a{
+
+	color: crimson;
+	font-size: 25px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+
+
+}
+.menu li a:hover{
+	color: black; 
+}
+.souservice{
+	display: none;
+	position: absolute;
+    color: black;
+
+}
+.menu li:hover .souservice{
+	display: block;
+}
+.souservice li{
+	width: 90%;
+	text-align: center;
+	background-color: #60A1DB;
+	color: black;
+	border: 2px solid #bdc3c7;
+}
+
+.child1-right{
+
+	width: 40%;
+    height:500px;
+   
+    margin: 10px 10px;
+
+}
+.child1-right span{
+
+	font-size: 30px;
+	margin-left: 20px;
+	color: white;
+	background-color: black;
+
+
+}
+.child1-right img{
+	width: 100%;
+    height:500px;
+}
+
+
+
+.child1-center{
+
+    width: 60%;
+    height:480px;
+     display: flex;
+    margin: auto 10px;
+    padding: 10px;
+    
+}
+
+
+.child1-center img{
+    width: 100%;
+    height:480px;
+}
+
+.home{
+    display: flex;
+    padding-top: 90px;
+
+
+}
+
+.child-left1{
+    width: 50%;
+    height:500px;
+    background-color: crimson;
+    margin-left: 200px;
+
+}
+.child-left1 img{
+    width: 100%;
+    height:500px;
+   
+
+}
+video{
+    height:100%; 
+    width:400px;
+}
+
+.child-center1{
+
+	width: 50%;
+    height:480px;
+
+    margin: auto 10px;
+    padding: 10px;
+    display: flex;
+}
+.home1{
+	display: flex;
+	padding-top: 90px;
+
+
+}
+.info1{
+	height: 100%;
+	width: 50%;
+	background-color: ;
+	margin-right: 10px;
+}
+.info2{
+	height: 100%;
+	width:150%;
+	background-color
+}
+.info21{
+	height: 30.4%;
+	background-color
+	margin: 10px auto;
+	height: 50%;
+}
+.case{
+	display: flex;
+	padding-top: 90px;
+
+}
+.child-left{
+    width: 55%;
+    height:300px;
+    
+    margin-top:80px;
+
+
+}
+.child-right{
+
+	width: 55%;
+    height:300px;
+
+    margin-left:80px;
+      margin-top:80px;
+
+}
+.child-left img{
+  width: 85%;
+    height:300px;
+    margin-left:20px;
+	border-radius: 20%;
+    
+
+}
+.child-right img{
+
+	 width: 85%;
+    height:300px;
+    margin-left:20px;
+	border-radius: 20%;
+    
+    
+
+}
+.cadre{
+	display: flex;
+}
+
+.made video{
+	
+	width: 1000px;
+	margin-left: 200px;
+	margin-top: 60px;
+	border-radius: 50%;
+	border: solid  #B2520B 3px;
+	box-shadow: #B2520B;
+	height: 500px;
+}
+	.kine{
+	background: black;
+	color: white;
+	width:100%;
+	margin-top: 0px;
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+
+}
+.kine span{
+	color:#60A1DB;
+}
+.child-left span{
+	font-size: 30px;
+}
+.child-right span{
+	font-size: 30px;
+}
+.child-left p{
+	font-size: 20px;
+	margin-left: 30px;
+}
+.child-right p{
+	font-size: 20px;
+	margin-left: 30px;
+}
+h1{
+	font-size: 50px;
+	margin-left: 250px;
+	background-color: black;
+	color: white;
+	width: 800px; 
+}
